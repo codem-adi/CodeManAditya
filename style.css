@@ -43,14 +43,14 @@ nav {
     padding: 1rem;
 }
 
-a {
+.Navigation_ul>li>a {
     text-decoration: none;
     font-size: 1.5rem;
     padding: 1.5rem 2rem;
 
 }
 
-a:hover {
+.Navigation_ul>li>a:hover {
     border-radius: 10%;
     background-color: #ffe64227;
     border-bottom: 1px solid #ffe742;
@@ -168,7 +168,7 @@ nav {
     padding: 1.5rem 2rem;
 }
 
-a:hover {
+.Navigation_ul>li>a:hover {
     border-radius: 10%;
     background-color: #ffe64227;
     border-bottom: 1px solid #ffe742;
