@@ -1,123 +1,3 @@
-<<<<<<< HEAD
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #000000;
-    color: aliceblue;
-    font-size: 10px;
-}
-
-body {
-    padding: 2rem 5rem;
-    margin: 0px;
-}
-
-header {
-    border-bottom: 10px solid #ffe742;
-    border-radius: 7rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 4rem;
-    padding: 1rem 4rem 0rem;
-}
-
-.logoText {
-    font-family: 'Black Ops One';
-    font-size: 50px;
-    font-weight: 100;
-    color: #ffe742;
-}
-
-.Navigation_ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-.Navigation_ul>li {
-    text-transform: capitalize;
-    padding: 1rem;
-}
-
-.Navigation_ul>li>a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding: 1.5rem 2rem;
-
-}
-
-.Navigation_ul>li>a:hover {
-    border-radius: 10%;
-    background-color: #ffe64227;
-    border-bottom: 1px solid #ffe742;
-}
-
-.heroSection {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;
-    padding: 5rem;
-}
-
-.hero_left_side {
-    text-align: center;
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.hero_left_side>h2 {
-    font-size: 10rem;
-    color: #ffe742;
-}
-
-.l_name {
-    font-size: 11.5rem;
-    background: #ffe742;
-    color: #000;
-}
-
-.About_me_text {
-    font-size: 4.5em;
-    color: #ffe742;
-}
-
-.hero_img {
-    width: 40rem;
-    height: 40rem;
-    border: 1rem solid #ffe742;
-    border-radius: 50%;
-}
-
-.social_handles {
-    text-align: center;
-}
-
-.social_handles>i {
-    padding: 3rem;
-    font-size: 3rem;
-    color: #ffe742;
-}
-
-.social_handles>i:first-child:hover {
-    color: #000000;
-}
-
-.social_handles>i:last-child:hover {
-    color: #0077b5;
-}
-
-@media(max-width: 550px) {
-    * {
-        font-size: 5px;
-    }
-
-=======
 * {
     margin: 0;
     padding: 0;
@@ -168,7 +48,7 @@ nav {
     padding: 1.5rem 2rem;
 }
 
-.Navigation_ul>li>a:hover {
+a:hover {
     border-radius: 10%;
     background-color: #ffe64227;
     border-bottom: 1px solid #ffe742;
@@ -230,23 +110,15 @@ nav {
 
 .social_handles>a>i:first-child:hover {
     color: #000000;
-    border: 9px solid #ffe742;
+    border: .5rem solid #ffe742;
     background-color: #ffe64271;
     border-radius: 50%;
 }
 
-.social_handles>a>i:last-child:hover {
-    color: #0077b5;
-    border: 3px solid #ffe742;
-    background-color: #ffe64271;
-    border-radius: 50%;
 
-} 
 
 @media(max-width: 550px) {
     * {
         font-size: 5px;
     }
-
->>>>>>> f3b463f (adding modified files)
 }
