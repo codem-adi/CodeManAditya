@@ -48,7 +48,7 @@ nav {
     padding: 1.5rem 2rem;
 }
 
-a:hover {
+.Navigation_ul>li>a:hover {
     border-radius: 10%;
     background-color: #ffe64227;
     border-bottom: 1px solid #ffe742;
@@ -96,11 +96,6 @@ a:hover {
     text-align: center;
 }
 
-.social_handles>a {
-    border: none;
-    background-color: transparent;
-}
-
 .social_handles>a>i {
     padding: 1rem;
     margin: 1rem;
@@ -108,7 +103,7 @@ a:hover {
     color: #ffe742;
 }
 
-.social_handles>a>i:first-child:hover {
+.social_handles>a>i:hover {
     color: #000000;
     border: .5rem solid #ffe742;
     background-color: #ffe64271;
